@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.signup {
+    width: 450px !important;
+    background-color: rgb(241, 214, 183);
+}
+
+.navbar {
+    background-color: bisque !important;
+}
+
+.error {
+    width: 60% !important;
+    margin-left: 25vh;
+}
