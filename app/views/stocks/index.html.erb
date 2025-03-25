@@ -1,0 +1,10 @@
+<h1>Stock Data for AAPL</h1>
+<% if @stock_data %>
+  <p>Open: <%= @stock_data["o"] %></p>
+  <p>High: <%= @stock_data["h"] %></p>
+  <p>Low: <%= @stock_data["l"] %></p>
+  <p>Current Price: <%= @stock_data["c"] %></p>
+  <p>Previous Close: <%= @stock_data["pc"] %></p>
+<% else %>
+  <p>No stock data available.</p>
+<% end %>

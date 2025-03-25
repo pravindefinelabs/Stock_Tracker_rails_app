@@ -29,6 +29,9 @@ gem "jbuilder", "~> 2.5"
 gem "devise"
 gem "devise-i18n"
 gem "devise-bootstrap-views", "~> 1.0"
+gem "iex-ruby-client"
+gem "http"
+gem "dotenv-rails" # For managing API keys securely
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
